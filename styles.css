@@ -1,0 +1,42 @@
+
+.header{
+    background-color: rgb(200, 200, 200);
+    color: rgb(0,0, 200);
+    padding: 20px;
+    line-height: 1;
+    text-align: center;
+}
+
+.column{
+    padding: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.sideStuff{
+    /*side stuff for color and center for sides columns*/
+    background-color: rgb(175,175,175);
+    color: rgb(0,0,150);
+    text-align: center;
+}
+
+@media screen {
+    .column.side1, .column.middle, .column.side2{
+      width: 100%;
+      float:center;
+    }
+}
+
+body{
+    
+    font-family: "Copperplate", "Papyrus", fantasy;
+    background-image: url("blueBackground.jpg");
+    text-align: center;
+    line-height: 1;
+}
